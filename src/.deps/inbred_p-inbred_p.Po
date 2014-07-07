@@ -1,4 +1,4 @@
-src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
+src/inbred_p-inbred_p.o: src/inbred_p.c /usr/include/stdlib.h \
   /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
   /usr/include/_types.h /usr/include/sys/_types.h \
   /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
@@ -34,7 +34,8 @@ src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
   /usr/include/sys/_types/_ssize_t.h /usr/include/secure/_stdio.h \
   /usr/include/secure/_common.h /usr/include/math.h \
   eca-shared/include/ranlib.h eca-shared/include/MathStatRand.h \
-  eca-shared/include/MCTypesEtc.h eca-shared/include/GFMCMC.h \
+  eca-shared/include/MCTypesEtc.h eca-shared/include/ECA_Opt3.h \
+  eca-shared/include/GFMCMC.h \
   /System/Library/Frameworks/GLUT.framework/Headers/glut.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
@@ -42,6 +43,7 @@ src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/glext.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
   eca-shared/include/GFMCMC_Shortcuts.h \
+  eca-shared/include/GFMCMC_DrawingUtilities.h \
   eca-shared/include/ECA_MemAlloc.h
 
 /usr/include/stdlib.h:
@@ -178,6 +180,8 @@ eca-shared/include/MathStatRand.h:
 
 eca-shared/include/MCTypesEtc.h:
 
+eca-shared/include/ECA_Opt3.h:
+
 eca-shared/include/GFMCMC.h:
 
 /System/Library/Frameworks/GLUT.framework/Headers/glut.h:
@@ -193,5 +197,7 @@ eca-shared/include/GFMCMC.h:
 /System/Library/Frameworks/OpenGL.framework/Headers/glu.h:
 
 eca-shared/include/GFMCMC_Shortcuts.h:
+
+eca-shared/include/GFMCMC_DrawingUtilities.h:
 
 eca-shared/include/ECA_MemAlloc.h:

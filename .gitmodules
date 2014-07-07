@@ -1,3 +1,6 @@
 [submodule "eca-shared"]
 	path = eca-shared
 	url = https://github.com/eriqande/eca-shared.git
+[submodule "newhybrids"]
+	path = newhybrids
+	url = https://github.com/eriqande/newhybrids.git

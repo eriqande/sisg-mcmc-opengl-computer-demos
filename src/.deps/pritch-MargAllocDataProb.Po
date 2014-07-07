@@ -1,7 +1,8 @@
-src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
-  /usr/include/Availability.h /usr/include/AvailabilityInternal.h \
-  /usr/include/_types.h /usr/include/sys/_types.h \
-  /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
+src/pritch-MargAllocDataProb.o: src/MargAllocDataProb.c \
+  /usr/include/stdlib.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
   /usr/include/sys/_posix_availability.h /usr/include/machine/_types.h \
   /usr/include/i386/_types.h /usr/include/sys/wait.h \
   /usr/include/sys/_types/_pid_t.h /usr/include/sys/_types/_id_t.h \
@@ -33,8 +34,9 @@ src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
   /usr/include/sys/_types/_va_list.h /usr/include/sys/_types/_off_t.h \
   /usr/include/sys/_types/_ssize_t.h /usr/include/secure/_stdio.h \
   /usr/include/secure/_common.h /usr/include/math.h \
-  eca-shared/include/ranlib.h eca-shared/include/MathStatRand.h \
-  eca-shared/include/MCTypesEtc.h eca-shared/include/GFMCMC.h \
+  eca-shared/include/ECA_MemAlloc.h eca-shared/include/MCTypesEtc.h \
+  eca-shared/include/MathStatRand.h eca-shared/include/ranlib.h \
+  eca-shared/include/GFMCMC.h \
   /System/Library/Frameworks/GLUT.framework/Headers/glut.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
@@ -42,7 +44,8 @@ src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/glext.h \
   /System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
   eca-shared/include/GFMCMC_Shortcuts.h \
-  eca-shared/include/ECA_MemAlloc.h
+  eca-shared/include/GFMCMC_DrawingUtilities.h \
+  newhybrids/src/NewHybrids.h src/MAZ4NewHybs.h
 
 /usr/include/stdlib.h:
 
@@ -172,11 +175,13 @@ src/beta_sim-beta_sim.o: src/beta_sim.c /usr/include/stdlib.h \
 
 /usr/include/math.h:
 
-eca-shared/include/ranlib.h:
+eca-shared/include/ECA_MemAlloc.h:
+
+eca-shared/include/MCTypesEtc.h:
 
 eca-shared/include/MathStatRand.h:
 
-eca-shared/include/MCTypesEtc.h:
+eca-shared/include/ranlib.h:
 
 eca-shared/include/GFMCMC.h:
 
@@ -194,4 +199,8 @@ eca-shared/include/GFMCMC.h:
 
 eca-shared/include/GFMCMC_Shortcuts.h:
 
-eca-shared/include/ECA_MemAlloc.h:
+eca-shared/include/GFMCMC_DrawingUtilities.h:
+
+newhybrids/src/NewHybrids.h:
+
+src/MAZ4NewHybs.h:
