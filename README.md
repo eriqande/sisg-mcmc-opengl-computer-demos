@@ -14,9 +14,13 @@ git clone https://github.com/eriqande/sisg-mcmc-opengl-computer-demos.git
 cd sisg-mcmc-opengl-computer-demos
 git submodule init
 git submodule update
-./configure --without-x  # --without-x is for Macs.  Leave that off for *nix
+./configure --bindir=$(pwd)/MCMC_Demos --without-x  # --without-x is for Macs.  Leave that off for Linux
 make
+make install
 ```
+
+That will put all the program binaries into the directory MCMC_Demos.  This then should be a directory with all the
+programs, data files, and GFMCMC "view" files needed to run the demos.
 
 Further instructions on how to use the compiled programs (as well as supporting files, etc) are forthcoming.
 
