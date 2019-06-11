@@ -1,1 +1,1 @@
-newhybDev -d InbreedingDataForNewHybs.txt -g Pure_A 1.0 0.0 0.0 -g Pure_B 0.0 0.0 1.0
+./newhybs -d InbreedingDataForNewHybs.txt -g Pure_A 1.0 0.0 0.0 -g Pure_B 0.0 0.0 1.0
