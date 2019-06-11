@@ -31,7 +31,10 @@ That will put all the program binaries into the directory MCMC_Demos.  This then
 programs and data files that are needed to run the demos.  The Views files necessary will have been put into ~/Library/gfmcmc
 
 
-Further instructions on how to use the compiled programs (as well as supporting files, etc) are forthcoming.
+Further instructions on how to use the compiled programs in the MCMC demonstrations done during the lecture series can
+be found in this video on youtube: [https://youtu.be/a8gjem86Uf4](https://youtu.be/a8gjem86Uf4). Note that there was an
+issue in getting RunNewHybs.sh to work, but I believe that has been fixed in a recent push to GitHub. (All that was required 
+was changing the program name within to `./newhybs`.
 
 Note that I have gotten this to compile on macs pretty easily.  But haven't yet successfully compiled it on
 Linux.
