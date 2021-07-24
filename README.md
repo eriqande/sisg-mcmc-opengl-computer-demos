@@ -38,3 +38,18 @@ was changing the program name within to `./newhybs`.
 
 Note that I have gotten this to compile on macs pretty easily.  But haven't yet successfully compiled it on
 Linux.
+
+## A note on later Mac OSes
+
+Hey y'all! I am still running OS 10.14 or so.  Phu Van from Twinstrand in Seattle noted that
+some additional steps were required to get this to compile on OS 11.5.  He says:
+
+_I found that you may get a compilation error due to C99 error checking (in OSX 11.5 and possibly earlier versions as well, depending on your particular compiler setup).
+If you get this error, the solution is to run:_  
+```sh
+export CFLAGS="-Wno-implicit-function-declaration"
+```
+_before running the `./configure` step, then recompile._
+
+Many thanks to Phu for that!
+
